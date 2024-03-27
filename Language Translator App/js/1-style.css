@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5372F0;
+    min-height: 100vh;
+}
+
+.container{
+    width: 690px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.wrapper{
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    resize: none;
+}
+
+.text-input .to-text{
+    border-radius: 0px;
+    border-left: 1px solid #bbb;
+}
+
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.controls, li, .icons .icons i{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls .icons{
+    width: 38%;
+}
+
+.controls .row.from .icons{
+    border-right: 15px;
+    border-right: 1px solid #bbb;
+}
+
+.controls .row.to .icons{
+    border-left: 15px;
+    border-left: 1px solid #bbb;
+}
+.controls .icons i{
+    width: 50px;
+    color: #9f9f9f;
+    cursor: pointer;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.controls .exchange{
+    color: #9f9f9f;
+    cursor: pointer;
+}
+
+.controls .row select{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.container button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    border: none;
+    outline: none;
+    background: #5372F0;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+}

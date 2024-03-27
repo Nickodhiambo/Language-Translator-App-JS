@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Language translator JS</title>
+        <link rel="stylesheet" href="1-style.css">
+        <script src="1-countries.js" defer></script>
+        <script src="1-script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <div class="text-input">
+                    <textarea class="from-text" placeholder="Enter text here..."></textarea>
+                    <textarea class="to-text" readonly disabled></textarea>
+                </div>
+                <ul class="controls">
+                    <li class="row from">
+                        <div class="icons">
+                            <i id="from" class="fas fa-volume-up">V</i>
+                            <i id="from" class="fas fa-copy">C</i>
+                        </div>
+                        <select>
+                        </select>
+                    </li>
+                    <li class="exchange"><i class="fa-exchange-alt">X</i></li>
+                    <li class="row to">
+                        <select>
+                        </select>
+                        <div class="icons">
+                            <i id="to" class="fas fa-volume-up">V</i>
+                            <i id="to" class="fas fa-copy">C</i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button>Translate text</button>
+        </div>
+    </body>
+</html>
